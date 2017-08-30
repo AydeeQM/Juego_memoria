@@ -1,0 +1,108 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+    font-family: 'Baloo Tammudu', cursive;
+    background-image: url(../img/fondo.jpg);
+}
+
+h1{
+    font-size: 40px;
+    color: cornsilk;
+}
+
+a{
+  color: #D91139;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+#divContenedor{
+  position: absolute;
+  left: 50%;
+  margin-left: -350px;
+  top: 60px;
+  border: solid 0px #000;
+  width: 650px;
+  text-align: center;
+  border-radius: 5px;
+  background: #0FAFD6;
+  padding: 5px;
+  height: 500px;
+  box-shadow: 0 0 10px #333;
+}
+ul{
+  list-style: none;
+    margin-top: 20px;
+}
+ul li{
+  display: inline-block;
+  background: #303030;
+  padding: 24px;
+  margin: 2px;
+  width: 88px;
+  height: 80px;
+  text-align: center;
+  border-radius: 3px;
+  border:solid 1px #333;
+  cursor: pointer;
+  color: #D91139;
+  font-size: 14px;
+  font-weight: bold;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+ul li:hover{
+  border-color: #0CD3D6;
+}
+#divInicio{
+  background: #000 url(../img/memory.png) no-repeat center;
+  border-radius: 5px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  color: #fff;
+}
+#divInferior{
+  position: absolute;
+  bottom: 10px;
+  text-align: center;
+  width: 100%;
+  padding: 20px 0;
+}
+#divInferior p{
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+#divInferior input[type="button"]{
+    border: solid 1px #333;
+    border-radius: 3px;
+    padding: 0 10px;
+    background: #000;
+    color: #999;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 20px;
+}
+#divInferior input[type="button"]:hover{
+    color: #fff;
+    background: rgba(0,0,0,0);
+    box-shadow: inset 0 0 0 3px #3a7999;
+}
+#divContador{
+    position: absolute;
+    bottom: -60px;
+    background: #1A6E71;
+    right: 0;
+    border-radius: 5px;
+    left: 1px;
+}
+#divContador p{
+  padding: 5px;
+  color: #fff;
+}
